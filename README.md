@@ -4,12 +4,6 @@ Những kỹ thuật biểu đồ được sử dụng trong EDA thường khá 
 - Vẽ phân bố của dữ liệu nguyên bản sử dụng mean plots, standard deviation plots, box plots, ...
 - Sắp xếp các biểu đồ giúp tối đa hoá khả năng tự nhiên về nhận biết mô hình của con người.
 
-Việc thực hiện EDA sử dụng trực quan dữ liệu, với thư viện seaborn:
-- Phân tích trực quan các biến định lượng dùng histogram.
-- Phân tích trực quan các biến phân loại dùng count plot.
-- Phân tích trực quan sự tương quan giữa các biến định lượng dùng scatter plot, joint plot, box plot và các complex conditional plot.
-Complex conditional plots được dùng để trực quan sự tương quan có điều kiện.
-
 Các bước để phân tích EDA:
 - Chuẩn bị dữ liệu.
 - Xử lý dữ liệu: kiểm tra dữ liệu có bị rỗng, trùng hay không (dùng hàm inull).
@@ -18,7 +12,8 @@ Các bước để phân tích EDA:
 - Sau đó phân tích dữ liệu:
             Phân tích trực quan các biến định lượng dùng histogram.
             Phân tích trực quan các biến phân loại dùng count plot, bar plot...
-            Phân tích trực quan sự tương quan giữa các biến định lượng dùng scatter plot, joint plot.
-            Phân tích trực giữa biến định luợng và phân loại dùng box plot.
+            Phân tích tương quan giữa 2 biến định lượng dùng Scatter plot 
+            Phân tích tương quan giữa biến định lượng và biến phân loại dùng box plot 
+            Complex conditional plots được dùng để trực quan sự tương quan có điều kiện.-
 - Từ biểu đồ rút ra kết luận và định ra các dự báo.
 
