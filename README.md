@@ -14,7 +14,7 @@ Các bước để phân tích EDA:
 - Chuẩn bị dữ liệu.
 - Xử lý dữ liệu: kiểm tra dữ liệu có bị rỗng, trùng hay không (dùng hàm inull).
 - Nếu dữ liệu bị rỗng là các biến định luợng thì thay thế bằng giá trị trung vị hoặc trung bình, còn biến phân loại thì thay thế bằng giá trị xuất hiện nhiều nhất.
-- Sau đó thống kê mô tả dữ liệu. (dùng hàm describe).
+- Sau đó thống kê mô tả dữ liệu. (dùng hàm describe) để biết được các giá trị min, max, tứ phân vị, độ lệch chuẩn, phương, giá trị trung bình...
 - Sau đó phân tích dữ liệu:
             Phân tích trực quan các biến định lượng dùng histogram.
             Phân tích trực quan các biến phân loại dùng count plot, bar plot...
