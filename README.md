@@ -11,8 +11,8 @@ Việc thực hiện EDA sử dụng trực quan dữ liệu, với thư viện 
 Complex conditional plots được dùng để trực quan sự tương quan có điều kiện.
 
 Các bước để phân tích EDA:
-- chuẩn bị dữ liệu.
-- xử lý dữ liệu: kiểm tra dữ liệu có bị rỗng, trùng hay không (dùng hàm inull).
+- Chuẩn bị dữ liệu.
+- Xử lý dữ liệu: kiểm tra dữ liệu có bị rỗng, trùng hay không (dùng hàm inull).
 - Nếu dữ liệu bị rỗng là các biến định luợng thì thay thế bằng giá trị trung vị hoặc trung bình, còn biến phân loại thì thay thế bằng giá trị xuất hiện nhiều nhất.
 - Sau đó thống kê mô tả dữ liệu. (dùng hàm describe).
 - Sau đó phân tích dữ liệu:
